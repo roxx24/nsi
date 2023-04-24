@@ -1,0 +1,15 @@
+import tkinter as tk
+
+class Application(tk.Tk):
+
+    def __init__(self):
+        super().__init__()
+        self.title("Une petite fenêtre")
+        self.geometry('500x400')
+        self.resizable(False, False)
+        # self.iconbitmap("coeur.ico") 
+        
+
+
+appli = Application()
+appli.mainloop()
